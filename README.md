@@ -22,4 +22,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Uma calculadora simples, para fins de treino e fixação de estudos em JavaScript.
 
-By Kauã 🪐
+<p align="center"> By Kauã Monteiro 🪐</p>
