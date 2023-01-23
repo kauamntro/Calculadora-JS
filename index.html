@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="calculator__display">
+            <h2 id="resultado"></h2>
+        </div>
+        <div class="calculator__keys">
+            <button class="btn-operador btn-adicao" onclick="colocarAlgo('+')">+</button>
+            <button class="btn-operador btn-subtracao" onclick="colocarAlgo('-')">-</button>
+            <button class="btn-operador btn-multiplicacao" onclick="colocarAlgo('*')">x</button>
+            <button class="btn-operador btn-dividir" onclick="colocarAlgo('/')">÷</button>
+            <button id="numero7" onclick="colocarAlgo(7)" class="btn-grid-1">7</button>
+            <button id="numero8" onclick="colocarAlgo(8)" class="btn-grid-2">8</button>
+            <button id="numero9" onclick="colocarAlgo(9)" class="btn-grid-3">9</button>
+            <button id="numero4" onclick="colocarAlgo(4)" class="btn-grid-4">4</button>
+            <button id="numero5" onclick="colocarAlgo(5)" class="btn-grid-5">5</button>
+            <button id="numero6" onclick="colocarAlgo(6)" class="btn-grid-6">6</button>
+            <button id="numero1" onclick="colocarAlgo(1)" class="btn-grid-7">1</button>
+            <button id="numero2" onclick="colocarAlgo(2)" class="btn-grid-8">2</button>
+            <button id="numero3" onclick="colocarAlgo(3)" class="btn-grid-9">3</button>
+            <button id="numero0" onclick="colocarAlgo(0)" class="btn-grid-10">0</button>
+            <button id="btn-ponto" onclick="colocarAlgo('.')" class="btn-grid-11">.</button>
+            <button id="btn-clear" onclick="limparDisplay()" class="btn-grid-12">AC</button>
+            <button class="btn-igual" onclick="calcular()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
